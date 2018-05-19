@@ -1,0 +1,48 @@
+
+#board{
+    margin: 0 auto;
+    width: 370px;
+    height: 370px;
+    background-color: whitesmoke;
+    outline: 10px solid #494949;
+    position: relative;
+}
+
+.cell{
+
+    position: relative;
+    float: left;
+    width: 12.5%;
+    height: 12.5%;
+    outline:0.5px solid white;//?????????????????
+
+}
+
+.notActive{
+    background-color: lightgray;
+}
+.active{
+    background-color: #494949;
+}
+
+.checkers{color = white;
+  width: 87%;
+  height: 87%;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+
+}
+.checker:hover{
+  border:2px solid lightblue;
+
+}
+.white{
+  border: 1px solid #000;
+  background-color: white;
+}
+.dark{
+  border: 1px solid #000;
+  background-color: lightblue;
+}
